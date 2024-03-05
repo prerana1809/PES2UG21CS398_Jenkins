@@ -6,7 +6,7 @@ pipeline {
       build 'PES2UG21CS398-1'
       sh 'g++ newfile.cpp -o output'
       }
-    }
+    }}}}
     stage('Test') {
       steps {
         sh './output'
